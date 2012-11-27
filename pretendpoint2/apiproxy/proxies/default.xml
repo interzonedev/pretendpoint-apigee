@@ -1,7 +1,9 @@
 <ProxyEndpoint name="default">
 	<PreFlow>
 		<Request>
-			<Step><Name>QuotaPolicy</Name></Step>
+			<Step><Name>ClassifyRequest</Name></Step>
+			<Step><Name>ValidateAPIKey</Name></Step>
+			<Step><Name>CheckQuota</Name></Step>
 		</Request>
 	</PreFlow>
     <HTTPProxyConnection>
