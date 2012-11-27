@@ -1,0 +1,6 @@
+<TargetEndpoint name="default">
+    <HTTPTargetConnection>
+	    <!-- The URL to which this proxy directs outbound requests -->
+        <URL>http://pretendpoint.interzonedev.com/</URL>
+    </HTTPTargetConnection>
+</TargetEndpoint>
