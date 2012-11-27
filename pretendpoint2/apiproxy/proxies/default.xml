@@ -1,4 +1,9 @@
 <ProxyEndpoint name="default">
+	<PreFlow>
+		<Request>
+			<Step><Name>QuotaPolicy</Name></Step>
+		</Request>
+	</PreFlow>
     <HTTPProxyConnection>
         <!-- Base path used to route inbound requests to this API proxy -->
         <BasePath>/pretendpoint2</BasePath>

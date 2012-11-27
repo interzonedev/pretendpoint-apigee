@@ -1,0 +1,6 @@
+<Quota enabled="true" continueOnError="false" async="false" name="QuotaPolicy">
+	<Allow count="1" />
+	<Interval>1</Interval>
+	<TimeUnit>minute</TimeUnit>
+</Quota>
+
